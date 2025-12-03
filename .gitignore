@@ -1,0 +1,40 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files (never commit)
+*.tfstate
+*.tfstate.*
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file (optional)
+.terraform.lock.hcl
+
+# Provider executables (Windows .exe files)
+terraform-provider-*.exe
+
+# Terraform plan files
+*.plan
+
+# Local environment files
+.terraformrc
+terraform.rc
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
